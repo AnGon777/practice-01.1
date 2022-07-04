@@ -1,0 +1,46 @@
+.body{
+    
+}
+
+.first-sec{
+    height: 100vh;
+    display: flex;
+    padding-top: 100px;
+    
+
+}
+h1{
+    word-spacing: 5px;
+}
+.intro {
+    width: 40w;
+    display: block;
+    justify-content: center;
+    padding-top: 10vh;
+    font-family: 'Poppins', sans-serif;
+ 
+    
+}
+.org-spn{
+    color: orangered;
+}
+.btn{
+    margin-top: 50px;
+}
+.link-btn{
+    margin-top: 100px;
+    color: whitesmoke;
+    text-decoration: none;
+    background-image: linear-gradient(to right, tomato, rgb(250, 158, 53));
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.intro h1{
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.img img{ 
+   
+    width: 50vw;  
+}
