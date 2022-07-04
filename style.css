@@ -3,7 +3,7 @@
 }
 
 .first-sec{
-    height: 100vh;
+   
     display: flex;
     padding-top: 100px;
     
@@ -13,10 +13,10 @@ h1{
     word-spacing: 5px;
 }
 .intro {
-    width: 40w;
+    width: 50vw;
     display: block;
     justify-content: center;
-    padding-top: 10vh;
+    padding-top: 5vh;
     font-family: 'Poppins', sans-serif;
  
     
@@ -42,5 +42,17 @@ h1{
 
 .img img{ 
    
-    width: 50vw;  
+    width: 40vw;  
+}
+
+.second-sec{
+    background-image: url(/images/shapes/Frame\ 58.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.right-part{
+    margin: 10%;
 }
