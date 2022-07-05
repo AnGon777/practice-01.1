@@ -1,24 +1,29 @@
-.body{
-    
+body{
+margin: 0px;
+font-family: 'Poppins', sans-serif;
 }
 
 .first-sec{
    
     display: flex;
     padding-top: 100px;
+    margin-bottom: 40px;
     
 
 }
 h1{
     word-spacing: 5px;
 }
+p{
+    color: rgb(95, 95, 95);
+}
 .intro {
     width: 50vw;
     display: block;
     justify-content: center;
     padding-top: 5vh;
-    font-family: 'Poppins', sans-serif;
- 
+    color: rgb(73, 68, 68);
+    padding-left: 50px;
     
 }
 .org-spn{
@@ -26,14 +31,15 @@ h1{
 }
 .btn{
     margin-top: 50px;
+    
 }
 .link-btn{
     margin-top: 100px;
     color: whitesmoke;
     text-decoration: none;
     background-image: linear-gradient(to right, tomato, rgb(250, 158, 53));
-    padding: 10px 20px;
-    border-radius: 5px;
+    padding: 10px 30px;
+    border-radius: 10px;
 }
 .intro h1{
     font-weight: 700;
@@ -41,7 +47,7 @@ h1{
 }
 
 .img img{ 
-   
+    height: auto;
     width: 40vw;  
 }
 
@@ -51,8 +57,65 @@ h1{
     display: flex;
     align-items: center;
     justify-content: center;
+   
+    color: rgb(73, 68, 68);
     
 }
 .right-part{
     margin: 10%;
+}
+.third{
+    
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+   
+    color: rgb(73, 68, 68);
+    margin-bottom: 50px;
+   
+}
+.head{
+    margin: 0 20%;
+    
+   
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  
+}
+.chart{
+    width: 40vw;
+    margin: 15px;
+    padding: 10px;
+    box-shadow: 10px 10px 20px 10px gray;
+    border-radius: 25px;
+}
+.chart img{
+    width: 100%;
+    height: auto;
+}
+.last{
+    margin: auto;
+    width: 75vw;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px 10px grey;
+  
+    margin-bottom: 50px;
+
+}
+.sub{
+    width: 30%;
+}
+
+footer{
+    background-color: rgb(196, 196, 196);
+    padding: 10px;
+    text-align: center;
 }
